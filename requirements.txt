@@ -1,0 +1,11 @@
+# 真正干活的那个。B 站接口常变，建议始终用最新：python -m pip install -U yt-dlp
+yt-dlp>=2025.1.15
+
+# 写 mp4 / m4a / mp3 的标签（标题、UP主、封面）
+mutagen>=1.46
+
+# 界面里的封面预览
+Pillow>=9.5
+
+# 注意：ffmpeg 不在 pip 里，要单独装（合并音视频、转 mp3、内嵌封面都要它）：
+#   winget install Gyan.FFmpeg

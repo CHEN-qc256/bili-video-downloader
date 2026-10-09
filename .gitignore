@@ -1,0 +1,19 @@
+# 运行期自己生成的，不该进仓库
+settings.json
+cookies.txt
+cookies_login.txt
+
+# 自检 / 截图脚本的临时产物
+_selftest_tmp/
+_shot_tmp/
+_probe_after_tmp/
+_shot*.png
+screenshots/probe_*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/

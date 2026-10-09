@@ -1,0 +1,7 @@
+# 统一换行，免得 Windows / macOS 上互相 diff 出满屏噪音
+* text=auto
+*.py   text
+*.md   text
+*.txt  text
+*.bat  text eol=crlf
+*.png  binary
